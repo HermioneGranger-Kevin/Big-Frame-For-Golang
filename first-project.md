@@ -1,7 +1,7 @@
 # 第一个小项目的介绍
 
 + 小项目名称：模拟生成随机时间
-+ 小项目源码位置：<>
++ 小项目源码位置：<https://github.com/HermioneGranger-Kevin/Big-Frame-For-Golang/blob/start/main.go>
 
 ### 第一、小项目的具体要求
 
