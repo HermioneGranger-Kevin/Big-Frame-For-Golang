@@ -1,7 +1,7 @@
 # Learn Markdown in Github
 ### In this flie, we can learn how to write Markdown in edit of Github.
 
-This is the web for markdown: 
+This is the web for markdown（网页来源）: 
 
 <https://guides.github.com/features/mastering-markdown/>
 
@@ -15,16 +15,16 @@ You can use Markdown most places around GitHub:
 + Comments in Issues and Pull Requests
 + Files with the .md or .markdown extension
 
-## Syntax guide
+## Syntax guide（指导）
 
-### Headers
+### Headers（标题）
 ```
 # This is an <h1> tag
 ## This is an <h2> tag
 ###### This is an <h6> tag
 ```
 
-### Emphasis
+### Emphasis（重点）
 ```
 *This text will be italic*
 _This will also be italic_
@@ -35,15 +35,15 @@ __This will also be bold__
 _You **can** combine them_
 ```
 
-### Lists
-#### Unordered
+### Lists（列表）
+#### Unordered（无序的列表）
 ```
 * Item 1
 * Item 2
   * Item 2a
   * Item 2b
 ```
-#### Ordered
+#### Ordered（有序的列表）
 ```
 1. Item 1
 1. Item 2
@@ -52,19 +52,19 @@ _You **can** combine them_
    1. Item 3b
 ```
 
-### Images
+### Images（图片）
 ```
 ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
 ```
 
-### Links
+### Links（链接）
 ```
 http://github.com - automatic!
 [GitHub](http://github.com)
 ```
 
-### Blockquotes
+### Blockquotes（块引用）
 ```
 As Kanye West said:
 
@@ -72,7 +72,7 @@ As Kanye West said:
 > the present is our past.
 ```
 
-### Inline code
+### Inline code（线内代码）
 ```
 I think you should use an
 `<addr>` element here instead.
