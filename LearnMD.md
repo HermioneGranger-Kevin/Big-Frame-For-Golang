@@ -83,7 +83,7 @@ GitHub.com uses its own version of the Markdown syntax that provides an addition
 
 Note that some features of GitHub Flavored Markdown are only available in the descriptions and comments of Issues and Pull Requests. These include @mentions as well as references to SHA-1 hashes, Issues, and Pull Requests. Task Lists are also available in Gist comments and in Gist Markdown files.
 
-### Syntax highlighting
+### Syntax highlighting（语法突出显示）
 Here’s an example of how you can use syntax highlighting with GitHub Flavored Markdown:
 
 ````
@@ -113,7 +113,7 @@ def foo():
         return True
 ```
 
-### Task Lists
+### Task Lists（任务列表）
 ```
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
@@ -122,7 +122,7 @@ def foo():
 ```
 If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. It also works in Pull Requests!
 
-### Tables
+### Tables（表格）
 You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe `|`:
 ```
 First Header | Second Header
@@ -137,7 +137,7 @@ First Header | Second Header
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
-### SHA references
+### SHA references（SHA参考）
 Any reference to a commit’s SHA-1 hash will be automatically converted into a link to that commit on GitHub.
 ```
 16c999e8c71134401a78d4d46435517b2271d6ac
@@ -145,7 +145,7 @@ mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
 mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 ```
 
-### Issue references within a repository
+### Issue references within a repository（在存储库中发布引用）
 Any number that refers to an Issue or Pull Request will be automatically converted into a link.
 ```
 #1
@@ -153,16 +153,16 @@ mojombo#1
 mojombo/github-flavored-markdown#1
 ```
 
-### Username @mentions
+### Username @mentions（用户名@提及）
 Typing an `@` symbol, followed by a username, will notify that person to come and view the comment. This is called an “@mention”, because you’re mentioning the individual. You can also @mention teams within an organization.
 
-### Automatic linking for URLs
+### Automatic linking for URLs（URLs的自动链接）
 Any URL (like `http://www.github.com/`) will be automatically converted into a clickable link.
 
-### Strikethrough
+### Strikethrough（删除线）
 Any word wrapped with two tildes (like `~~this~~`) will appear crossed out.
 
-### Emoji
+### Emoji（表情符号）
 GitHub supports [emoji](https://help.github.com/articles/basic-writing-and-formatting-syntax/#using-emoji)!
 
 such as: I :heart: @huangshijia
